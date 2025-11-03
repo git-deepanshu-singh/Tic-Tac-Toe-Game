@@ -3,6 +3,8 @@
     padding: 0%;
 }
 body{
+    height: 100vh;
+    width: 100vw;
     background-color: rgb(74, 88, 89);
     text-align: center;
     background-image: url(image/background.jpg.jpg);
@@ -64,7 +66,7 @@ body{
 }
 .msg-container{
     height: 100vmin;
-    gap: 5rem;
+    row-gap: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
