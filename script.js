@@ -3,9 +3,9 @@ let reset_btn = document.querySelector("#reset-btn");
 let new_btn = document.querySelector("#new-btn");
 let msg_container = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
-let btnAudio = new Audio("/Audio_file/ting.mp3");
-let winningAudio = new Audio("/Audio_file/winning-218995.mp3");
-let newGameAudio = new Audio("/Audio_file/new_game.mp3");
+let btnAudio = new Audio("./Audio_file/ting.mp3");
+let winningAudio = new Audio("./Audio_file/winning-218995.mp3");
+let newGameAudio = new Audio("./Audio_file/new_game.mp3");
 
 
 reset_btn.addEventListener('click',()=>{

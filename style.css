@@ -7,8 +7,12 @@ body{
     width: 100vw;
     background-color: rgb(74, 88, 89);
     text-align: center;
-    background-image: url(image/background.jpg.jpg);
+    background-image: url("./image/background.jpg.jpg");
     background-size: cover;
+}
+main{
+    height: 92vh;
+    width: 100vw;
 }
 #container{
     height: 70vh;
@@ -65,12 +69,13 @@ body{
     font-size: 8vmin;
 }
 .msg-container{
-    height: 100vmin;
+    height: 110vmin;
     row-gap: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .hide{
     display: none;
