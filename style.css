@@ -37,7 +37,7 @@ main{
     border-radius: 1rem;
     border: none;
     background-color: rgba(245, 245, 245,0.01);
-    box-shadow: 0 0 1rem rgba(0, 0, 0,0.3  );
+     box-shadow: 0 0 2vmin rgba(0, 0, 0, 0.35);
     font-size: 10vmin;
     color: rgb(7,34,51);
     cursor: pointer;
@@ -54,12 +54,14 @@ main{
     box-shadow: 0 0 1rem rgba(0, 0, 0,0.7);
 }
 #new-btn{
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-size: 1.5rem;
     background-color: rgba(245, 245, 245, 0.09);
     color: black;
     border-radius: 1rem;
     border: none;
+    min-width: 160px; 
+    transition: all 0.3s ease;
 }
 #new-btn:hover{
     box-shadow: 0 0 1rem rgba(0, 0, 0,0.5);
@@ -76,6 +78,11 @@ main{
     align-items: center;
     flex-direction: column;
     margin-bottom: 50px;
+}
+.msg-container img {
+  width: 290px;
+  height: auto;
+  border-radius: 10px;
 }
 .hide{
     display: none;
